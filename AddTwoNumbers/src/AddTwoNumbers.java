@@ -5,9 +5,8 @@
  *
  * Created by nagen on 9/16/16.
  */
-class AddTwoNumbers {
+public class AddTwoNumbers {
 
-    private  Node L1, L2;
     public static class Node {
         int value;
         Node next;
@@ -41,19 +40,19 @@ class AddTwoNumbers {
         }
 
         public static void main(String[] args) {
-            AddTwoNumbers addTwoNumbers = new AddTwoNumbers();
+            Node L1, L2;
 
-            addTwoNumbers.L1 = new Node(5);
-            addTwoNumbers.L1.next = new Node(4);
-            addTwoNumbers.L1.next.next = new Node(3);
-            addTwoNumbers.L1.next.next.next = new Node(2);
-            addTwoNumbers.L1.next.next.next.next = new Node(1);
+            L1 = new Node(5);
+            L1.next = new Node(4);
+            L1.next.next = new Node(3);
+            L1.next.next.next = new Node(2);
+            L1.next.next.next.next = new Node(1);
 
-            addTwoNumbers.L2 = new Node(3);
-            addTwoNumbers.L2.next = new Node(2);
-            addTwoNumbers.L2.next.next = new Node(7);
+            L2 = new Node(3);
+            L2.next = new Node(2);
+            L2.next.next = new Node(7);
 
-            Node result = addNode(addTwoNumbers.L1, addTwoNumbers.L2);
+            Node result = addNode(L1, L2);
 
             printLinkedList(result);
         }
@@ -66,6 +65,5 @@ class AddTwoNumbers {
                     System.out.print("->");
             }
         }
-
     }
 }
