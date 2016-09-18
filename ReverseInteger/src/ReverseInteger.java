@@ -11,9 +11,14 @@ public class ReverseInteger {
     }
 
     private static int reverseInteger(int i) {
-        int ans = 0;
+        int ans = 0, tail, temp;
         while (i !=0){
-            ans = ans * 10 + (i%10);
+            tail = i%10;
+            temp = ans * 10 + tail;
+            if((temp - tail) / 10 != ans) {
+                return  0;
+            }
+            ans = temp;
             i /= 10;
         }
         return ans;
