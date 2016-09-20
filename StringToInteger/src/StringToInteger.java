@@ -9,6 +9,8 @@ public class StringToInteger {
 
     public static void main(String[] args) {
         System.out.println(stringToInteger("     +004500"));
+        System.out.println(stringToInteger("-+500"));
+        System.out.println(stringToInteger("-2147483647"));
     }
 
     private static int stringToInteger(String str) {
