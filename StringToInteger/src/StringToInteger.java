@@ -13,7 +13,7 @@ public class StringToInteger {
     public static void main(String[] args) {
         System.out.println(stringToInte("     +004500"));
         System.out.println(stringToInte("-+500"));
-        System.out.println(stringToInte("-2147483647"));
+        System.out.println(stringToInteger("-2147483647"));
     }
 
     private static int stringToInte(String str) {
