@@ -2,15 +2,47 @@
 /** StringToInteger: get a string
  *
  * return the corresponding number
+ * 4500
+ 0
+ -2147483647
  *
  * Created by nagen on 9/19/16.
  */
 public class StringToInteger {
 
     public static void main(String[] args) {
-        System.out.println(stringToInteger("     +004500"));
-        System.out.println(stringToInteger("-+500"));
-        System.out.println(stringToInteger("-2147483647"));
+        System.out.println(stringToInte("     +004500"));
+        System.out.println(stringToInte("-+500"));
+        System.out.println(stringToInte("-2147483647"));
+    }
+
+    private static int stringToInte(String str) {
+        if(str.isEmpty())
+            return 0;
+
+        double out = 0; int sign = 1, count = 0;
+
+        char[] characters = str.toCharArray();
+        while(characters[count] == ' ') {
+            count++;
+        }
+        if(characters[count] == '-' || characters[count] == '+') {
+            sign = characters[count++] == '-' ?  -1 : 1;
+        }
+
+        for(int i = count; i < characters.length; i++) {
+            if(characters[i] >= '0' && characters[i] <= '9') {
+                out = out * 10 + characters[i] - '0';
+            } else {
+                break;
+            }
+        }
+        if(out > Integer.MAX_VALUE ){
+            return sign == 1 ? sign * Integer.MAX_VALUE : sign * Integer.MIN_VALUE;
+        }
+        else {
+            return (int)(sign * out);
+        }
     }
 
     private static int stringToInteger(String str) {
