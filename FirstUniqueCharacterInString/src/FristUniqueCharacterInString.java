@@ -6,6 +6,7 @@
 public class FristUniqueCharacterInString {
     public static void main(String[] args) {
         System.out.println(firstUniqueCharacter("abcdeffabce"));
+        System.out.println(firstUniqueCharacter("aabbccddeeffgg"));
     }
 
     private static int firstUniqueCharacter(String s) {
