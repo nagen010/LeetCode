@@ -21,8 +21,8 @@ public class RemoveNthNodeFromEnd {
         input.next.next.next = new ListNode(5);
         input.next.next.next.next = new ListNode(6);
 
-        ListNode out = removeNthNodeFromEnd(input, 3);
-        printLinkedList(out);
+        printLinkedList(removeNthNodeFromEnd(input, 3));
+        printLinkedList(removeNthNodeFromEnd(input, 2));
 
     }
 
@@ -57,6 +57,7 @@ public class RemoveNthNodeFromEnd {
             if(result != null)
                 System.out.print("->");
         }
+        System.out.printf("\n");
     }
 
 }
