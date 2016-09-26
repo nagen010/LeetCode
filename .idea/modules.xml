@@ -11,6 +11,7 @@
       <module fileurl="file://$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" filepath="$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringToInteger/StringToInteger.iml" filepath="$PROJECT_DIR$/StringToInteger/StringToInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/TwoSum/TwoSum.iml" filepath="$PROJECT_DIR$/TwoSum/TwoSum.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ValidParantheses/ValidParantheses.iml" filepath="$PROJECT_DIR$/ValidParantheses/ValidParantheses.iml" />
     </modules>
   </component>
 </project>
