@@ -9,6 +9,8 @@ public class ValidParantheses {
 
     public static void main(String[] args) {
         System.out.println(isValidParantheses("(){}[]()[]{}{}"));
+        System.out.println(isValidParantheses("(){}[]()[]{}{{}}"));
+        System.out.println(isValidParantheses("([)]"));
     }
 
     private static boolean isValidParantheses(String s) {
