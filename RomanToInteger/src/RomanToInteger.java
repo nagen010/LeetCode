@@ -5,6 +5,8 @@
 public class RomanToInteger {
     public static void main(String[] args) {
         System.out.println(romanToInteger("XXV"));
+        System.out.println(romanToInteger("MXXVI"));
+        System.out.println(romanToInteger("MDCVIXXI"));
     }
 
     private static int romanToInteger(String s) {
