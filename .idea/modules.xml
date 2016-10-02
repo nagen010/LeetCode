@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AddTwoNumbers/AddTwoNumbers.iml" filepath="$PROJECT_DIR$/AddTwoNumbers/AddTwoNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstUniqueCharacterInString/FirstUniqueCharacterInString.iml" filepath="$PROJECT_DIR$/FirstUniqueCharacterInString/FirstUniqueCharacterInString.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LongestPalindrome/LongestPalindrome.iml" filepath="$PROJECT_DIR$/LongestPalindrome/LongestPalindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.iml" filepath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.iml" />
       <module fileurl="file://$PROJECT_DIR$/NimGame/NimGame.iml" filepath="$PROJECT_DIR$/NimGame/NimGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" filepath="$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" />
