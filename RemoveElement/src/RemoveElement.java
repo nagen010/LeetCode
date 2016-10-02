@@ -10,6 +10,7 @@
 public class RemoveElement {
     public static void main(String[] args) {
         System.out.println(removeElement(new int[]{1, 2, 3, 4, 3}, 3));
+        System.out.println(removeElement(new int[]{1, 2, 3, 3}, 3));
     }
 
     private static int removeElement(int[] array, int val) {
