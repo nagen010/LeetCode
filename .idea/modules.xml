@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.iml" filepath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.iml" />
       <module fileurl="file://$PROJECT_DIR$/NimGame/NimGame.iml" filepath="$PROJECT_DIR$/NimGame/NimGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" filepath="$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.iml" filepath="$PROJECT_DIR$/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/RemoveElement/RemoveElement.iml" filepath="$PROJECT_DIR$/RemoveElement/RemoveElement.iml" />
       <module fileurl="file://$PROJECT_DIR$/RemoveNthNodefromEnd/RemoveNthNodefromEnd.iml" filepath="$PROJECT_DIR$/RemoveNthNodefromEnd/RemoveNthNodefromEnd.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" filepath="$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" />

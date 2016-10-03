@@ -21,7 +21,7 @@ public class RemoveNthNodeFromEnd {
         input.next.next.next = new ListNode(5);
         input.next.next.next.next = new ListNode(6);
 
-        printLinkedList(removeNthNodeFromEnd(input, 3));
+        printLinkedList(removeNthNodeFromEnd(input, 5));
         printLinkedList(removeNthNodeFromEnd(input, 2));
 
     }
@@ -31,6 +31,7 @@ public class RemoveNthNodeFromEnd {
             return null;
 
         ListNode fast = input;
+
         ListNode slow = input;
 
         for(int i = 0; i < n; i++) {
@@ -38,7 +39,8 @@ public class RemoveNthNodeFromEnd {
         }
 
         if(fast == null) {
-            return input.next;
+            input = input.next;
+            return input;
         }
 
         while (fast.next != null) {
