@@ -6,12 +6,13 @@
 public class CountAndSay {
     public static void main(String[] args) {
         CountAndSay cs = new CountAndSay();
-        System.out.println(cs.countAndSay(599));
+        System.out.println(cs.countAndSay(59));
+        System.out.println(cs.countAndSay(1));
     }
 
     private String countAndSay(int n) {
         String s = "1";
-        for(int i = 0; i < n; i++) {
+        for(int i = 1; i < n; i++) {
             s = findSequence(s);
         }
         return s;
