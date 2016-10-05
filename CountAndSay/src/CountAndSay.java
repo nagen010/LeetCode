@@ -8,6 +8,7 @@ public class CountAndSay {
         CountAndSay cs = new CountAndSay();
         System.out.println(cs.countAndSay(59));
         System.out.println(cs.countAndSay(1));
+        System.out.println(cs.countAndSay(3));
     }
 
     private String countAndSay(int n) {
