@@ -14,6 +14,7 @@
       <module fileurl="file://$PROJECT_DIR$/RemoveElement/RemoveElement.iml" filepath="$PROJECT_DIR$/RemoveElement/RemoveElement.iml" />
       <module fileurl="file://$PROJECT_DIR$/RemoveNthNodefromEnd/RemoveNthNodefromEnd.iml" filepath="$PROJECT_DIR$/RemoveNthNodefromEnd/RemoveNthNodefromEnd.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" filepath="$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ReverseString/ReverseString.iml" filepath="$PROJECT_DIR$/ReverseString/ReverseString.iml" />
       <module fileurl="file://$PROJECT_DIR$/RomanToInteger/RomanToInteger.iml" filepath="$PROJECT_DIR$/RomanToInteger/RomanToInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringToInteger/StringToInteger.iml" filepath="$PROJECT_DIR$/StringToInteger/StringToInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumOfTwoIntegers/SumOfTwoIntegers.iml" filepath="$PROJECT_DIR$/SumOfTwoIntegers/SumOfTwoIntegers.iml" />
