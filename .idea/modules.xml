@@ -16,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" filepath="$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseString/ReverseString.iml" filepath="$PROJECT_DIR$/ReverseString/ReverseString.iml" />
       <module fileurl="file://$PROJECT_DIR$/RomanToInteger/RomanToInteger.iml" filepath="$PROJECT_DIR$/RomanToInteger/RomanToInteger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SingleNumber/SingleNumber.iml" filepath="$PROJECT_DIR$/SingleNumber/SingleNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/StringToInteger/StringToInteger.iml" filepath="$PROJECT_DIR$/StringToInteger/StringToInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/SumOfTwoIntegers/SumOfTwoIntegers.iml" filepath="$PROJECT_DIR$/SumOfTwoIntegers/SumOfTwoIntegers.iml" />
       <module fileurl="file://$PROJECT_DIR$/TwoSum/TwoSum.iml" filepath="$PROJECT_DIR$/TwoSum/TwoSum.iml" />
