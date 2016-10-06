@@ -5,6 +5,7 @@ public class SingleNumber {
     public static void main(String[] args) {
         SingleNumber sn = new SingleNumber();
         System.out.println(sn.singleNumber(new int[]{1,1,2,2,3}));
+        System.out.println(sn.singleNumber(new int[]{1,1,2,2,3,3,7}));
     }
 
     private int singleNumber(int[] array) {
