@@ -7,6 +7,7 @@ public class SumOfTwoIntegers {
     public static void main(String[] args) {
         SumOfTwoIntegers sum = new SumOfTwoIntegers();
         System.out.println(sum.add(1,2));
+        System.out.println(sum.add(5,2));
     }
 
     private int add(int a, int b) {
