@@ -5,6 +5,7 @@ public class ReverseString {
     public static void main(String[] args) {
         ReverseString rs = new ReverseString();
         System.out.println(rs.reverseString("hello"));
+        System.out.println(rs.reverseString("leetcode"));
     }
 
     private String reverseString(String s) {
