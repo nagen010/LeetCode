@@ -8,6 +8,7 @@ public class SumOfTwoIntegers {
         SumOfTwoIntegers sum = new SumOfTwoIntegers();
         System.out.println(sum.add(1,2));
         System.out.println(sum.add(5,2));
+        System.out.println(sum.add(5,12345));
     }
 
     private int add(int a, int b) {
