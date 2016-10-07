@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AddTwoNumbers/AddTwoNumbers.iml" filepath="$PROJECT_DIR$/AddTwoNumbers/AddTwoNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/CountAndSay/CountAndSay.iml" filepath="$PROJECT_DIR$/CountAndSay/CountAndSay.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FindTheDifference/FindTheDifference.iml" filepath="$PROJECT_DIR$/FindTheDifference/FindTheDifference.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstUniqueCharacterInString/FirstUniqueCharacterInString.iml" filepath="$PROJECT_DIR$/FirstUniqueCharacterInString/FirstUniqueCharacterInString.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/LongestPalindrome/LongestPalindrome.iml" filepath="$PROJECT_DIR$/LongestPalindrome/LongestPalindrome.iml" />
