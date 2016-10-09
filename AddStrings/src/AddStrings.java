@@ -4,6 +4,7 @@
 public class AddStrings {
     public static void main(String[] args) {
         System.out.println(addStrings("12345","12345"));
+        System.out.println(addStrings("123456","123456"));
     }
 
     private static String addStrings(String n1, String n2) {
