@@ -12,6 +12,7 @@ import java.util.List;
 public class Anangrams {
     public static void main(String[] args) {
         findAnagrams("cbaebabacd", "abc").forEach(System.out::println);
+        findAnagrams("aaaaabaaaba", "aaaa").forEach(System.out::println);
 
     }
 
