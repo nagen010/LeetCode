@@ -10,7 +10,7 @@ import java.util.*;
 public class TwoSum {
 
     public static void main(String[] args) {
-        int[] array = {1, 3, 4, 5, 8, 9, 10, 9, 8};
+        int[] array = {1, 3, 4, 5, 8, 9, 10, 7, 6,11};
         int target = 17;
         Arrays.stream(getIndices(array, target)).forEach(System.out::println);
 
