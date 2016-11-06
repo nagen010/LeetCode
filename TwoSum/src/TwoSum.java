@@ -1,4 +1,4 @@
-import java.util.HashMap;
+import java.util.*;
 
 /**
  * Two Sum: Takes an array and Target value
@@ -12,10 +12,8 @@ public class TwoSum {
     public static void main(String[] args) {
         int[] array = {1, 3, 4, 5, 8, 9, 10};
         int target = 17;
-        int[] output = getIndices(array, target);
-        for (int i: output) {
-            System.out.print(i + " ");
-        }
+        Arrays.stream(getIndices(array, target)).forEach(System.out::println);
+
     }
 
     private static int[] getIndices(int[] array, int target) {
@@ -28,8 +26,46 @@ public class TwoSum {
             }
             output.put(array[i], i);
         }
-
         throw new IllegalArgumentException("No two sum solution");
+    }
+
+    private static List<MyEntry<Integer,Integer>> getIndicesList(int[] array, int target) {
+        HashMap<Integer, Integer> map = new HashMap<>();
+        List<MyEntry<Integer,Integer>> outputList = new ArrayList<>();
+        int difference;
+        for(int i = 0; i < array.length; i++) {
+            difference = target - array[i];
+            if(map.containsKey(difference)) {
+                outputList.add(new MyEntry<>(map.get(difference), i));
+            }
+            map.put(array[i],i);
+        }
+        return outputList;
+    }
+
+    private static class MyEntry<K,V> implements Map.Entry<K,V> {
+        private final K key;
+        private final V value;
+
+        MyEntry(K key, V value) {
+            this.key = key;
+            this.value = value;
+        }
+
+        @Override
+        public K getKey() {
+            return key;
+        }
+
+        @Override
+        public V getValue() {
+            return value;
+        }
+
+        @Override
+        public V setValue(V value) {
+            return null;
+        }
     }
 
 }
