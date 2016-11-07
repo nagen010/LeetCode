@@ -12,6 +12,7 @@
       <module fileurl="file://$PROJECT_DIR$/LongestPalindrome/LongestPalindrome.iml" filepath="$PROJECT_DIR$/LongestPalindrome/LongestPalindrome.iml" />
       <module fileurl="file://$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.iml" filepath="$PROJECT_DIR$/LongestSubstringWithoutRepeatingCharacters/LongestSubstringWithoutRepeatingCharacters.iml" />
       <module fileurl="file://$PROJECT_DIR$/MaximumXORofTwoNumbersInArray/MaximumXORofTwoNumbersInArray.iml" filepath="$PROJECT_DIR$/MaximumXORofTwoNumbersInArray/MaximumXORofTwoNumbersInArray.iml" />
+      <module fileurl="file://$PROJECT_DIR$/MinimumMovesToEqualArrayElements/MinimumMovesToEqualArrayElements.iml" filepath="$PROJECT_DIR$/MinimumMovesToEqualArrayElements/MinimumMovesToEqualArrayElements.iml" />
       <module fileurl="file://$PROJECT_DIR$/NimGame/NimGame.iml" filepath="$PROJECT_DIR$/NimGame/NimGame.iml" />
       <module fileurl="file://$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" filepath="$PROJECT_DIR$/PalindromeNumber/PalindromeNumber.iml" />
       <module fileurl="file://$PROJECT_DIR$/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.iml" filepath="$PROJECT_DIR$/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.iml" />

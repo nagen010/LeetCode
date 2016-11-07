@@ -17,7 +17,6 @@ public class TwoSum {
         getIndicesList(array,target).forEach(items->
                 System.out.println("pair : " + items.key + ", " + items.value)
         );
-
     }
 
     private static int[] getIndices(int[] array, int target) {
@@ -68,7 +67,7 @@ public class TwoSum {
 
         @Override
         public V setValue(V value) {
-            return null;
+            return value;
         }
     }
 
