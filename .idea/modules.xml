@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/AddStrings/AddStrings.iml" filepath="$PROJECT_DIR$/AddStrings/AddStrings.iml" />
       <module fileurl="file://$PROJECT_DIR$/AddTwoNumbers/AddTwoNumbers.iml" filepath="$PROJECT_DIR$/AddTwoNumbers/AddTwoNumbers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Anagrams/Anagrams.iml" filepath="$PROJECT_DIR$/Anagrams/Anagrams.iml" />
+      <module fileurl="file://$PROJECT_DIR$/AssignCookies/AssignCookies.iml" filepath="$PROJECT_DIR$/AssignCookies/AssignCookies.iml" />
       <module fileurl="file://$PROJECT_DIR$/CountAndSay/CountAndSay.iml" filepath="$PROJECT_DIR$/CountAndSay/CountAndSay.iml" />
       <module fileurl="file://$PROJECT_DIR$/FindTheDifference/FindTheDifference.iml" filepath="$PROJECT_DIR$/FindTheDifference/FindTheDifference.iml" />
       <module fileurl="file://$PROJECT_DIR$/FirstUniqueCharacterInString/FirstUniqueCharacterInString.iml" filepath="$PROJECT_DIR$/FirstUniqueCharacterInString/FirstUniqueCharacterInString.iml" />
@@ -18,6 +19,7 @@
       <module fileurl="file://$PROJECT_DIR$/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.iml" filepath="$PROJECT_DIR$/RemoveDuplicatesFromSortedArray/RemoveDuplicatesFromSortedArray.iml" />
       <module fileurl="file://$PROJECT_DIR$/RemoveElement/RemoveElement.iml" filepath="$PROJECT_DIR$/RemoveElement/RemoveElement.iml" />
       <module fileurl="file://$PROJECT_DIR$/RemoveNthNodefromEnd/RemoveNthNodefromEnd.iml" filepath="$PROJECT_DIR$/RemoveNthNodefromEnd/RemoveNthNodefromEnd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RepeatedSubstringPattern/RepeatedSubstringPattern.iml" filepath="$PROJECT_DIR$/RepeatedSubstringPattern/RepeatedSubstringPattern.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" filepath="$PROJECT_DIR$/ReverseInteger/ReverseInteger.iml" />
       <module fileurl="file://$PROJECT_DIR$/ReverseString/ReverseString.iml" filepath="$PROJECT_DIR$/ReverseString/ReverseString.iml" />
       <module fileurl="file://$PROJECT_DIR$/RomanToInteger/RomanToInteger.iml" filepath="$PROJECT_DIR$/RomanToInteger/RomanToInteger.iml" />
@@ -27,6 +29,7 @@
       <module fileurl="file://$PROJECT_DIR$/TwoSum/TwoSum.iml" filepath="$PROJECT_DIR$/TwoSum/TwoSum.iml" />
       <module fileurl="file://$PROJECT_DIR$/ValidParantheses/ValidParantheses.iml" filepath="$PROJECT_DIR$/ValidParantheses/ValidParantheses.iml" />
       <module fileurl="file://$PROJECT_DIR$/ValidWordAbbreviation/ValidWordAbbreviation.iml" filepath="$PROJECT_DIR$/ValidWordAbbreviation/ValidWordAbbreviation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/isPalindrome/isPalindrome.iml" filepath="$PROJECT_DIR$/isPalindrome/isPalindrome.iml" />
     </modules>
   </component>
 </project>
